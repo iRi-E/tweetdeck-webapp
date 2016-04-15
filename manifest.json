@@ -1,0 +1,15 @@
+{
+    "name": "tweetdeck-webapp.irie",
+    "description": "Unofficial webapp for tweetdeck.twitter.com",
+    "architecture": "all",
+    "title": "TweetDeck",
+    "hooks": {
+        "tweetdeck-webapp": {
+            "apparmor": "tweetdeck-webapp.apparmor",
+            "desktop": "tweetdeck-webapp.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "IRIE Shinsuke <irieshinsuke@yahoo.co.jp>",
+    "framework": "ubuntu-sdk-15.04.4"
+}

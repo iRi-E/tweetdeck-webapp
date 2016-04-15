@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=TweetDeck
+Comment=Unofficial webapp for tweetdeck.twitter.com
+Type=Application
+Icon=tweetdeck-webapp.png
+Exec=webapp-container --store-session-cookies --name=TweetDeck --webappUrlPatterns=https?://twitter.com/*,https?://mobile.twitter.com/* http://tweetdeck.twitter.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+
